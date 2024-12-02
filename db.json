@@ -1,0 +1,148 @@
+{
+    "permissions": [
+      {
+        "id": "2",
+        "name": "Write"
+      },
+      {
+        "id": "3",
+        "name": "Execute"
+      },
+      {
+        "id": "4411",
+        "name": "Read"
+      },
+      {
+        "id": "fe49",
+        "name": "Drop"
+      },
+      {
+        "id": "cf96",
+        "name": "Update"
+      },
+      {
+        "id": "ce6a",
+        "name": "Approve"
+      },
+      {
+        "id": "e7f0",
+        "name": "Lock Resources"
+      },
+      {
+        "id": "bc01",
+        "name": "Backup"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1",
+        "name": "Admin",
+        "permissions": [
+          "Read",
+          "Write"
+        ]
+      },
+      {
+        "id": "20c4",
+        "name": "Super Admin",
+        "permissions": [
+          "Write",
+          "Execute",
+          "Read",
+          "Update",
+          "Backup",
+          "Restore"
+        ]
+      },
+      {
+        "id": "166c",
+        "name": "Clerk",
+        "permissions": [
+          "Read"
+        ]
+      },
+      {
+        "id": "0961",
+        "name": "Super Officer",
+        "permissions": [
+          "Execute",
+          "Read"
+        ]
+      },
+      {
+        "id": "eaa3",
+        "name": "Assitant",
+        "permissions": [
+          "Write",
+          "Read",
+          "Approve",
+          "Lock Resources"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "id": "3738",
+        "name": "John Doe",
+        "role": "Clerk",
+        "status": "Inactive",
+        "email": "JohnDoe13@yahoo.com"
+      },
+      {
+        "id": "d9ed",
+        "name": "Patrickson",
+        "role": "Super Officer",
+        "status": "Active",
+        "email": "Patrick213@yahoo.com"
+      },
+      {
+        "id": "1917",
+        "name": "Peter Saint",
+        "email": "peter9897@gmail.com",
+        "role": "Super Officer",
+        "status": "Active"
+      },
+      {
+        "id": "3ebd",
+        "name": "Simon Garfield",
+        "email": "simon@gmail.com",
+        "role": "Super Admin",
+        "status": "Active"
+      },
+      {
+        "id": "b439",
+        "name": "Rahul",
+        "email": "r023@gmail.com",
+        "role": "Super Admin",
+        "status": "Active"
+      },
+      {
+        "id": "6c27",
+        "name": "Raj Kumar",
+        "email": "raju@yahoo.com",
+        "role": "Super Admin",
+        "status": "Active"
+      },
+      {
+        "id": "a236",
+        "name": "Suresh",
+        "email": "suresh0909@gmail.com",
+        "role": "Clerk",
+        "status": "Active"
+      },
+      {
+        "id": "f868",
+        "name": "Fiend",
+        "email": "fava@gmail.com",
+        "role": "Admin",
+        "status": "Active"
+      },
+      {
+        "id": "30b4",
+        "name": "Charan",
+        "email": "charan@gmail.com",
+        "role": "Chiranavi Visirave",
+        "status": "Active"
+      }
+    ]
+  }

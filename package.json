@@ -1,15 +1,11 @@
 {
-  "name": "mock-backend",
+  "name": "json-server",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "vercel-build": "echo 'No build step needed'"
+    "start": "json-server --watch db.json --port 8080"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-server": "^0.17.4"
-  },
-  "engines": {
-    "node": "18.x"
+    "json-server": "^0.17.3"
   }
 }
